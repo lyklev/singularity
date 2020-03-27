@@ -42,11 +42,15 @@ guide](https://github.com/sylabs/singularity-admindocs).
 
 ## Support
 
-To get help with Singularity, check out the [Community
-Portal](https://www.sylabs.io/singularity/community/).
+**This version of Singularity is no longer officially supported.**
 
-For additional support, [contact us](https://www.sylabs.io/contact/) to receive
-more information.
+This singularity version is a continuation of Singularity version 2. Singularity version 2 was written in C, but this version became difficult to maintain, and Version 3, although very similar at first sight, was a complete rewrite in Go.
+
+Now a version in C is straightforward to compile, whereas for Go, you need a *bit* more. Therefore, many sites still use version 2. With a recent Linux kernel update, version 2 became unusable - which is why I decided to apply a small patch; and a fork was born...
+
+For general singularity version 2 documentation, see the Singularity site.
+
+For reporting bugs and errors, keep in mind that version 2 is no longer officially supported. I will fix bugs and add features as time permits.
 
 ## Cite as:
 
